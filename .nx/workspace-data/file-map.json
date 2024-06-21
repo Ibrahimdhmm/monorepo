@@ -1,0 +1,230 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.3.0",
+  "deps": {
+    "husky": "9.0.11",
+    "lint-staged": "15.2.7",
+    "nx": "19.3.0",
+    "prettier": "^3.0.0"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "13976598495189047638"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "8258668164414709802"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "372450880788333468"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "712795152212998824"
+      },
+      {
+        "file": "lint-staged.config.js",
+        "hash": "6241376675353160532"
+      },
+      {
+        "file": ".husky/pre-commit",
+        "hash": "18373482123571138502"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "10725898894999163819"
+      },
+      {
+        "file": "nx.json",
+        "hash": "2790552212837951050"
+      },
+      {
+        "file": "package.json",
+        "hash": "563904490855409370"
+      }
+    ],
+    "projectFileMap": {
+      "@monorepo/api": [
+        {
+          "file": "apps/api/.eslintrc.js",
+          "hash": "7530919561077522417"
+        },
+        {
+          "file": "apps/api/.gitignore",
+          "hash": "12634402967133909834"
+        },
+        {
+          "file": "apps/api/README.md",
+          "hash": "15018899818891883319"
+        },
+        {
+          "file": "apps/api/nest-cli.json",
+          "hash": "789240945379598733"
+        },
+        {
+          "file": "apps/api/package.json",
+          "hash": "3432068002885588338",
+          "deps": [
+            "@monorepo/sample-lib",
+            "npm:@nestjs/cli",
+            "npm:@nestjs/schematics",
+            "npm:@nestjs/testing",
+            "npm:@types/express",
+            "npm:@types/jest",
+            "npm:@types/node",
+            "npm:@types/supertest",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:eslint-plugin-prettier",
+            "npm:jest",
+            "npm:prettier",
+            "npm:source-map-support@0.5.21",
+            "npm:supertest",
+            "npm:ts-jest",
+            "npm:ts-loader",
+            "npm:ts-node",
+            "npm:tsconfig-paths@4.2.0",
+            "npm:typescript@5.5.2",
+            "npm:@nestjs/common",
+            "npm:@nestjs/core",
+            "npm:@nestjs/platform-express",
+            "npm:reflect-metadata",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/api/src/app.controller.spec.ts",
+          "hash": "5510965611701279714"
+        },
+        {
+          "file": "apps/api/src/app.controller.ts",
+          "hash": "13740950960885762249"
+        },
+        {
+          "file": "apps/api/src/app.module.ts",
+          "hash": "10114683627662265274"
+        },
+        {
+          "file": "apps/api/src/app.service.ts",
+          "hash": "1690089588916856069"
+        },
+        {
+          "file": "apps/api/src/main.ts",
+          "hash": "9759110932340238413"
+        },
+        {
+          "file": "apps/api/test/app.e2e-spec.ts",
+          "hash": "13280887041518905980"
+        },
+        {
+          "file": "apps/api/test/jest-e2e.json",
+          "hash": "7570273541430074424"
+        },
+        {
+          "file": "apps/api/tsconfig.build.json",
+          "hash": "276845246908739715"
+        },
+        {
+          "file": "apps/api/tsconfig.json",
+          "hash": "1876265833229380624"
+        }
+      ],
+      "@monorepo/sample-lib": [
+        {
+          "file": "libs/sample-lib/index.ts",
+          "hash": "16729261508988592546"
+        },
+        {
+          "file": "libs/sample-lib/package.json",
+          "hash": "7705889041823126818",
+          "deps": [
+            "npm:typescript@5.5.2"
+          ]
+        },
+        {
+          "file": "libs/sample-lib/tsconfig.json",
+          "hash": "14590710882709848906"
+        }
+      ],
+      "@monorepo/web": [
+        {
+          "file": "apps/web/.eslintrc.json",
+          "hash": "10616060546436571437"
+        },
+        {
+          "file": "apps/web/.gitignore",
+          "hash": "15751075988610075934"
+        },
+        {
+          "file": "apps/web/README.md",
+          "hash": "12205685531602560652"
+        },
+        {
+          "file": "apps/web/next.config.mjs",
+          "hash": "6567081978241091914"
+        },
+        {
+          "file": "apps/web/package.json",
+          "hash": "8995823824064813782",
+          "deps": [
+            "npm:typescript@5.5.2",
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:postcss@8.4.38",
+            "npm:tailwindcss",
+            "npm:eslint",
+            "npm:eslint-config-next",
+            "@monorepo/sample-lib",
+            "npm:react",
+            "npm:react-dom",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/web/postcss.config.mjs",
+          "hash": "2557392112968376575"
+        },
+        {
+          "file": "apps/web/public/next.svg",
+          "hash": "8300767200008744458"
+        },
+        {
+          "file": "apps/web/public/vercel.svg",
+          "hash": "2376673330454856631"
+        },
+        {
+          "file": "apps/web/src/app/favicon.ico",
+          "hash": "9157999678830540297"
+        },
+        {
+          "file": "apps/web/src/app/globals.css",
+          "hash": "10620967136394561243"
+        },
+        {
+          "file": "apps/web/src/app/layout.tsx",
+          "hash": "1552691733234398668"
+        },
+        {
+          "file": "apps/web/src/app/page.tsx",
+          "hash": "13466907520039826798"
+        },
+        {
+          "file": "apps/web/tailwind.config.ts",
+          "hash": "776514114970524489"
+        },
+        {
+          "file": "apps/web/tsconfig.json",
+          "hash": "4320684160905164141"
+        }
+      ]
+    }
+  }
+}
